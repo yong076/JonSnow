@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/yong076/JonSnow",
+	"ImportPath": "github.com/saiday/JonSnow",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v62",
 	"Deps": [
