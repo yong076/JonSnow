@@ -382,7 +382,7 @@ func GetGooglePlayReviews(config Config, uri string, id string, hl string) (Revi
 
 		reviewTitle := s.Find(REVIEW_TITLE_CLASS_NAME).Text()
 		if len(reviewTitle) == 0 {
-			reviewTitle = "No title provided"
+			reviewTitle = "타이틀이 없습니다"
 		}
 
 		reviewMessage := s.Find(REVIEW_MESSAGE_CLASS_NAME).Text()
