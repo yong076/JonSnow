@@ -20,6 +20,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/clbanning/mxj"
 	"github.com/lib/pq"
+	"gopkg.in/yaml.v2"
 )
 
 type Config struct {
@@ -364,8 +365,6 @@ func GetGooglePlayReviews(config Config, uri string, id string, hl string) (Revi
 			timeForm = "2006年1月2日"
 		} else if config.GooglePlayLocation == "en" {
 			timeForm = "January 2, 2006"
-		} else if config.GooglePlayLocation == "ko" {
-			timeForm = "2016년1월2일"
 		}
 
 		date, err := time.Parse(timeForm, dateNode.Text())
