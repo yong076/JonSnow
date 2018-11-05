@@ -2,7 +2,7 @@
   "name": "Jon Snow the watcher",
   "description": "This app monitor App Store, Google Play reviews on certain id, send new reviews to slack channel",
   "keywords": ["go", "slack", "app store", "google play", "reviews"],
-  "repository": "https://github.com/saiday/JonSnow",
+  "repository": "https://github.com/yong076/JonSnow",
   "scripts": {
     "postdeploy": "psql -h echo ${DATABASE_URL} < schema.sql && bin/JonSnow"
   },
