@@ -20,6 +20,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/clbanning/mxj"
 	"github.com/lib/pq"
+	"gopkg.in/yaml.v2"
 )
 
 type Config struct {
